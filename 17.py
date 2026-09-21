@@ -9,7 +9,7 @@
 # "w"	Write
 # "a"	Append
 # "x"	Create new file
-# "rb"	Read binary
+# "rb"	Read binary --> BINARY FILE MEI READ
 # "wb"	Write binary
 
 # if the file already has content w erases the old content
@@ -32,3 +32,14 @@ lines = file.readlines() # reads all line and stores them in a list
 print(lines) #['HELLO\n', 'WORLD\n', 'PYTHON']
 print(type(lines)) #list
 file.close()
+
+#1.BETTER APPROACH TO READ A FILE : USE WITH AS IT AUTOMATICALLY CLOSES THE FILE AFTER THE WORK IS DONE
+with open("data.txt","r") as file:
+    content = file.read()
+    print(content)
+#2. WRITING TO A FILE
+with open("data.txt","w") as file :
+    file.write("Hello Python")
+#3. APPENDING TO A FILE
+with open("data.txt","a")as file:
+    file.write("\n New Line added")

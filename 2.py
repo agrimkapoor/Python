@@ -10,4 +10,11 @@ print(type(age)) #<class 'int'>
 
 # how to print the variables in python
 print("My name is",name, "and I am", age, "years old",sep=" ") # jab bhi comma ka use karenge to python automatically space dega print karne ke liye, agar hum chahte hai ki space na de to hum sep="" ka use kar sakte hai
-#by default sep=" " hota hai toh hame khud se space dene ki zaroorat nhi
+#by default sep=" " hota hai toh hame khud se space dene ki zaroorat nhi 
+
+
+#M1
+a = 1
+print(a)
+#M2
+a=1;print(a)

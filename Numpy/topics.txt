@@ -1,0 +1,38 @@
+TOPICS IN NUMPY STUDIED
+
+1. What is NumPy
+2. Python List vs NumPy Array
+3. Shape of NumPy Array
+4. reshape()
+5. arange()
+6. Vectorized Operations
+7. Universal Functions (ufunc)
+8. np.exp()
+9. Indexing
+10. Slicing
+11. Modifying Array Elements
+12. Logical / Conditional Operations
+13. axis
+14. Aggregation Functions
+    - sum()
+    - mean()
+    - min()
+    - max()
+    - std()
+15. Sorting
+16. Concatenation
+17. Stacking
+    - vstack()
+    - hstack()
+18. Broadcasting
+19. Copy vs View
+20. Random Numbers
+    - np.random.randint()
+    - np.random.rand()
+21. Matrix Operations
+    - Element-wise multiplication
+    - Matrix multiplication (@)
+22. Linear Algebra
+    - det()
+    - inv()
+    - eig()
